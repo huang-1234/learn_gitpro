@@ -118,6 +118,7 @@ class MainController extends Controller {
       'WHERE article.articleId=' + id;
     // const result = await app.mysql.query(sql);
     ctx.body = { data: result };
+    // ch2新增
   }
 }
 
