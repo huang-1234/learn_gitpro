@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+the message only will see in the ch2 unless merged
+
+123
+=======
+the message only will see in the ch2 unless merged;
+456
+
+789
+>>>>>>> ch2
