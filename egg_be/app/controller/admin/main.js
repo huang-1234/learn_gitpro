@@ -117,7 +117,7 @@ class MainController extends Controller {
       'FROM article LEFT JOIN type ON article.type_id = type.Id ' +
       'WHERE article.articleId=' + id;
     const result = await app.mysql.query(sql);
-    ctx.body = { data: result };
+    // ctx.body = { data: result };
   }
 }
 
